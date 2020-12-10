@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="22dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="number"
+        android:textSize="22sp"/>
+
+    <EditText
+        android:id="@+id/EditTx_Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="22sp"/>
+
+    <EditText
+        android:id="@+id/EditTx_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <CheckBox
+        android:id="@+id/std_pass_CheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pass" />
+
+</LinearLayout>
